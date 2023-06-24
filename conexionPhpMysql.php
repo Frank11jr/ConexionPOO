@@ -15,7 +15,7 @@ class conexionPhpMysql {
 	var $Consulta_ID=0;
 
 	// Constructor 
-	function class_mysqli($host="", $user="", $pass="", $db=""){
+	function conexionPhpMysql($host="", $user="", $pass="", $db=""){
 		$this->BaseDatos=$db;
 		$this->Servidor=$host;
 		$this->Usuario=$user;
